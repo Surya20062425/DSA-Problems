@@ -1,4 +1,6 @@
 class Solution:
+
+    # The vowels are a , e,i , o,u 
     def reverseVowels(self, s: str) -> str:
         vowels = set('aeiouAEIOU')
         s = list(s)  # Strings are immutable in Python, so convert to list
