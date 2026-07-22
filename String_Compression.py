@@ -34,10 +34,40 @@ class Solution:
         i += 1
           # if the i satisfies both the conditions it increases the i value  to 1
       chars[ans] = letter
+
+      # the elment in array that satisifie the lenfght of the array 
+
+      # then it equals to the letter that hold the value of lenght 
+
+    # it is the required element we need to evaluate
       ans += 1
+
+      # then we increase the value of the ans by 1
+
       if count > 1:
+        # the above condition evaluates
+        # the condition evaluates when the count is greater than 1
         for c in str(count):
+          # the loop that iterrates according to the c is an value 
+          # c value is useed to iterate the loop 
+
+          #  the count is the integer
+
+          # the integer is to be turned into the string 
+
+          # the transformed string is to be added into the array 
           chars[ans] = c
+
+          # In the array of cahrs 
+
+          # if the element that satisfies the value of lenght of the array 
+
+          # the element that is to be assigned to the value c
+          
           ans += 1
 
+         # the value of the leght -- ans to be increased by 1
+
     return ans
+
+# the value to be returned  is the lenght of the new array
