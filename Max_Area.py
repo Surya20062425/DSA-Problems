@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
 
   # DEfined the class to pass the leetcode compiler

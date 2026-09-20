@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 class Solution:
     def leafSimilar(self, root1: Optional[TreeNode], root2: Optional[TreeNode]) -> bool:
         def collect_leaf_values(root, leaf_values):

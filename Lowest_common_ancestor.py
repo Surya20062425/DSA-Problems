@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         if not root or root == p or root == q:

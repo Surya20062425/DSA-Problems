@@ -13,7 +13,7 @@ class Solution:
             if node.val >= max_val:
                 good += 1
                 max_val = node.val
-            return(
+            return 
                 good
                 +dfs(node.left,max_val)
                 +dfs(node.right,max_val)

@@ -1,3 +1,5 @@
+from typing import List, Optional
+
 class Solution:
     def longestZigZag(self, root: Optional[TreeNode]) -> int:
         self.maxLength = 0

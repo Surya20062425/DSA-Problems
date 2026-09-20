@@ -1,3 +1,7 @@
+from collections import deque
+
+from typing import List, Optional
+
 class Solution:
     def maxLevelSum(self, root: Optional[TreeNode]) -> int:
         q = deque([root])

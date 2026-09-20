@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def nearestExit(self, maze: List[List[str]], entrance: List[int]) -> int:
         def find_distance(x1: int, y1: int, x2: int, y2: int) -> int:

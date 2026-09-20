@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
 
   # created a class solution

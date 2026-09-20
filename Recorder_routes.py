@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def dfs(self, adj: List[List[Tuple[int, int]]], visited: List[bool], minChange: List[int], currCity: int) -> None:
         visited[currCity] = True

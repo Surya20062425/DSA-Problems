@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def suggestedProducts(self, A: List[str], searchWord: str) -> List[List[str]]:
         A.sort()
