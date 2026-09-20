@@ -1,6 +1,7 @@
 from typing import List
 
 class Solution:
+    """Daily Temperatures — monotonic stack, O(n) time."""
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         st = []
         res = [0] * len(temperatures)
