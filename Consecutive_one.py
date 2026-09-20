@@ -1,12 +1,10 @@
+from typing import List
+
 class Solution:
+    """Longest subarray of 1s after deleting one element (sliding window)."""
 
-    # created a class 
-    def longestOnes(self, nums, k):
-
-        # created a function 
-
-        # created two variables nums ,k 
-        left, maxLength, zeroCount = 0, 0, 0
+    def longestOnes(self, nums: List[int], k: int) -> int:
+        left = zeroCount = maxLength = 0
         for right in range(len(nums)):
             if nums[right] == 0:
                 zeroCount += 1
