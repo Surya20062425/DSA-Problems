@@ -1,4 +1,7 @@
+from typing import List
+
 class Solution:
+    """House Robber I — space-optimized DP (O(1) space)."""
     def rob(self, nums: List[int]) -> int:
         prev_rob = max_rob = 0
 
@@ -6,5 +9,5 @@ class Solution:
             temp = max(max_rob, prev_rob + cur_val)
             prev_rob = max_rob
             max_rob = temp
-        
+
         return max_rob
