@@ -26,6 +26,4 @@ Each file can be run directly:
 python filename.py
 ```
 
-## Author
 
-[Suraj](https://github.com/Surya20062425)
