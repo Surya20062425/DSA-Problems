@@ -4,18 +4,19 @@ A collection of LeetCode and interview-style algorithm problems solved in Python
 
 ## Structure
 
-All solutions are in the root directory as standalone `.py` files. Each file contains a `Solution` class with the problem's method.
+Solutions are organized by topic:
 
-## Topics Covered
-
-- Arrays & Strings
-- Linked Lists
-- Trees & BST
-- Graphs & BFS/DFS
-- Dynamic Programming
-- Sliding Window
-- Greedy Algorithms
-- Binary Search
+| Folder | Description |
+|--------|-------------|
+| `arrays/` | Array manipulation, sliding window, two-pointer |
+| `strings/` | String processing, parsing, matching |
+| `trees/` | Binary trees, BSTs, DFS/BFS |
+| `linked_lists/` | Singly linked list problems |
+| `graphs/` | Graph traversal, BFS, DFS, union-find |
+| `dynamic_programming/` | DP, memoization, state machines |
+| `sorting_searching/` | Binary search, greedy, sorting |
+| `math/` | Mathematical/numerical problems |
+| `misc/` | Stack, trie, misc problems |
 
 ## Running
 
